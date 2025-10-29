@@ -20,7 +20,7 @@ Zde je vizuální diagram zapojení ESP32 s gyroskopickým senzorem MPU6050:
 ### Schéma zapojení (PDF)
 Pro detailnější schéma v PDF formátu (včetně komponent a rozměrů):
 
-[Stáhnout schéma (PDF)](schemes/Gyroscopic-controller-scheme.pdf)
+[Stáhnout schéma (PDF)](schemes/Gyroscopic-controller-scheme.png)
 
 *(Nahrajte PDF do složky `docs/` a odkaz bude fungovat. Pokud máte více stránek, PDF se otevře v prohlížeči.)*
 
