@@ -46,6 +46,3 @@ Zde je schéma PCB zapojení ESP32 s gyroskopickým senzorem MPU6050:
    - SDA → GPIO 21
 2. Nahrajte sketch (příklad v `src/main.ino` – upravte podle vašeho kódu).
 3. Otevřete Serial Monitor (115200 baud) pro sledování dat pohybu.
-4. Pro bezdrátové ovládání: Připojte se k Wi-Fi síti ESP32 a použijte app (např. Blynk nebo vlastní mobilní app).
-
-Příklad výstupu v Serial Monitoru:
