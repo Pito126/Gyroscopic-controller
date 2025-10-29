@@ -13,13 +13,13 @@ Gyroskopický ovladač postavený na mikrokontroléru **ESP32**. Tento projekt u
 ### Schéma zapojení (PNG)
 Zde je schéma zapojení ESP32 s gyroskopickým senzorem MPU6050:
 
-![Wiring Diagram](schemes/Gyroscopic-controller-pcb.png)
+![Scheme](schemes/Gyroscopic-controller-scheme.png)
 
 
 ### Schéma PCB zapojení (PNG)
 Zde je schéma PCB zapojení ESP32 s gyroskopickým senzorem MPU6050:
 
-[Stáhnout schéma (PDF)](schemes/Gyroscopic-controller-scheme.png)
+![Scheme-PCB)](schemes/Gyroscopic-controller-pcb.png)
 
 
 ## Požadavky
