@@ -24,7 +24,7 @@ typedef struct struct_message {
 struct_message myMessage;
 
 // --- MAC adresa přijímače ---
-uint8_t receiverAddress[] = {0xC0, 0x5D, 0x89, 0xCE, 0x33, 0x34};
+uint8_t receiverAddress[] = {0xEE, 0xEE, 0xEE, 0xEE, 0xEE, 0xEE}; // Za EE dosaďte mac adresu příjmače; MAC adress scanner najdete na začátku
 
 // --- Proměnné ---
 float pitchFiltered = 0;
