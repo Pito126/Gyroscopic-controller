@@ -30,17 +30,17 @@ uint8_t receiverAddress[] = {0xC0, 0x5D, 0x89, 0xCE, 0x33, 0x34};
 float pitchFiltered = 0;
 float rollFiltered = 0;
 unsigned long lastSend = 0;
-const unsigned long SEND_INTERVAL = 300;
+const unsigned long SEND_INTERVAL = 300; // Interval po kterém se odesílají hodnoty (ms)
 char lastState[3] = "X";
 
 // --- Baterie ---
-const int BAT_PIN = 34;
-const float R1 = 216000.0;
-const float R2 = 100000.0;
+const int BAT_PIN = 34; // Pin pro detekci analogového signálu
+const float R1 = 216000.0; // Hodnota R1
+const float R2 = 100000.0; // Hodnota R2
 const float ADC_REF = 3.3;
 const int ADC_RES = 4095;
-float batteryVoltage = 0.0;
-int batteryPercent = 0;
+float batteryVoltage = 0.0; // Napětí baterie
+int batteryPercent = 0; // Hodnota baterie
 unsigned long lastBatteryUpdate = 0;
 const unsigned long BATTERY_UPDATE_INTERVAL = 10000;
 const float kalibracniFaktor = 1.097;
