@@ -1,10 +1,10 @@
-#include <Wire.h>
-#include <MPU6050.h>
-#include <esp_now.h>
-#include <WiFi.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SH110X.h>
-#include <math.h>
+#include <Wire.h> // Komunikace I2C pro OLED a gyroskop
+#include <MPU6050.h> // Gyroskop
+#include <esp_now.h> // WI-FI pro esp 32
+#include <WiFi.h> // Zapnutí WI-FI modů
+#include <Adafruit_GFX.h> // Funkce OLED displeje
+#include <Adafruit_SH110X.h> // Nastavení displeje
+#include <math.h> // Matematické funke
 
 // --- OLED nastavení ---
 #define SCREEN_WIDTH 128
