@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Gyroskopicke-pomucky")(type "KiCad")(uri "${KIPRJMOD}/Gyroskopicke-pomucky.kicad_sym")(options "")(descr ""))
-)
